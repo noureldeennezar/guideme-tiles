@@ -1,0 +1,8 @@
+/index.json
+  Cache-Control: public, max-age=300
+/t/*
+  Cache-Control: public, max-age=3600
+/m/*
+  Cache-Control: public, max-age=3600
+/top/*
+  Cache-Control: public, max-age=3600
