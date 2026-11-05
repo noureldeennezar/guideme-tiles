@@ -1,0 +1,1362 @@
+[
+ {
+  "id": "istanbul",
+  "name": "Istanbul",
+  "country": "Türkiye",
+  "cc": "TR",
+  "lat": 41.01,
+  "lng": 28.98,
+  "kind": "city"
+ },
+ {
+  "id": "cappadocia",
+  "name": "Cappadocia",
+  "country": "Türkiye",
+  "cc": "TR",
+  "lat": 38.64,
+  "lng": 34.83,
+  "kind": "nature"
+ },
+ {
+  "id": "antalya",
+  "name": "Antalya",
+  "country": "Türkiye",
+  "cc": "TR",
+  "lat": 36.9,
+  "lng": 30.7,
+  "kind": "beach"
+ },
+ {
+  "id": "bodrum",
+  "name": "Bodrum",
+  "country": "Türkiye",
+  "cc": "TR",
+  "lat": 37.03,
+  "lng": 27.43,
+  "kind": "beach"
+ },
+ {
+  "id": "cairo",
+  "name": "Cairo",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 30.04,
+  "lng": 31.24,
+  "kind": "city"
+ },
+ {
+  "id": "luxor",
+  "name": "Luxor",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 25.69,
+  "lng": 32.64,
+  "kind": "desert"
+ },
+ {
+  "id": "aswan",
+  "name": "Aswan",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 24.09,
+  "lng": 32.9,
+  "kind": "desert"
+ },
+ {
+  "id": "siwa",
+  "name": "Siwa Oasis",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 29.2,
+  "lng": 25.52,
+  "kind": "desert"
+ },
+ {
+  "id": "sharm",
+  "name": "Sharm El Sheikh",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 27.91,
+  "lng": 34.33,
+  "kind": "beach"
+ },
+ {
+  "id": "hurghada",
+  "name": "Hurghada",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 27.26,
+  "lng": 33.81,
+  "kind": "beach"
+ },
+ {
+  "id": "dahab",
+  "name": "Dahab",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 28.5,
+  "lng": 34.51,
+  "kind": "beach"
+ },
+ {
+  "id": "marsaalam",
+  "name": "Marsa Alam",
+  "country": "Egypt",
+  "cc": "EG",
+  "lat": 25.07,
+  "lng": 34.89,
+  "kind": "beach"
+ },
+ {
+  "id": "marrakech",
+  "name": "Marrakech",
+  "country": "Morocco",
+  "cc": "MA",
+  "lat": 31.63,
+  "lng": -7.99,
+  "kind": "city"
+ },
+ {
+  "id": "fez",
+  "name": "Fez",
+  "country": "Morocco",
+  "cc": "MA",
+  "lat": 34.03,
+  "lng": -5.0,
+  "kind": "city"
+ },
+ {
+  "id": "merzouga",
+  "name": "Merzouga (Sahara)",
+  "country": "Morocco",
+  "cc": "MA",
+  "lat": 31.1,
+  "lng": -4.01,
+  "kind": "desert"
+ },
+ {
+  "id": "petra",
+  "name": "Petra",
+  "country": "Jordan",
+  "cc": "JO",
+  "lat": 30.33,
+  "lng": 35.44,
+  "kind": "desert"
+ },
+ {
+  "id": "wadirum",
+  "name": "Wadi Rum",
+  "country": "Jordan",
+  "cc": "JO",
+  "lat": 29.57,
+  "lng": 35.42,
+  "kind": "desert"
+ },
+ {
+  "id": "dubai",
+  "name": "Dubai",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "lat": 25.2,
+  "lng": 55.27,
+  "kind": "city"
+ },
+ {
+  "id": "doha",
+  "name": "Doha",
+  "country": "Qatar",
+  "cc": "QA",
+  "lat": 25.29,
+  "lng": 51.53,
+  "kind": "city"
+ },
+ {
+  "id": "muscat",
+  "name": "Muscat",
+  "country": "Oman",
+  "cc": "OM",
+  "lat": 23.59,
+  "lng": 58.41,
+  "kind": "city"
+ },
+ {
+  "id": "paris",
+  "name": "Paris",
+  "country": "France",
+  "cc": "FR",
+  "lat": 48.86,
+  "lng": 2.35,
+  "kind": "city"
+ },
+ {
+  "id": "avignon",
+  "name": "Provence",
+  "country": "France",
+  "cc": "FR",
+  "lat": 43.95,
+  "lng": 4.81,
+  "kind": "nature"
+ },
+ {
+  "id": "rome",
+  "name": "Rome",
+  "country": "Italy",
+  "cc": "IT",
+  "lat": 41.9,
+  "lng": 12.5,
+  "kind": "city"
+ },
+ {
+  "id": "florence",
+  "name": "Florence",
+  "country": "Italy",
+  "cc": "IT",
+  "lat": 43.77,
+  "lng": 11.26,
+  "kind": "city"
+ },
+ {
+  "id": "amalfi",
+  "name": "Amalfi Coast",
+  "country": "Italy",
+  "cc": "IT",
+  "lat": 40.63,
+  "lng": 14.6,
+  "kind": "beach"
+ },
+ {
+  "id": "siena",
+  "name": "Tuscany",
+  "country": "Italy",
+  "cc": "IT",
+  "lat": 43.32,
+  "lng": 11.33,
+  "kind": "nature"
+ },
+ {
+  "id": "como",
+  "name": "Lake Como",
+  "country": "Italy",
+  "cc": "IT",
+  "lat": 45.99,
+  "lng": 9.26,
+  "kind": "nature"
+ },
+ {
+  "id": "barcelona",
+  "name": "Barcelona",
+  "country": "Spain",
+  "cc": "ES",
+  "lat": 41.39,
+  "lng": 2.17,
+  "kind": "city"
+ },
+ {
+  "id": "seville",
+  "name": "Seville",
+  "country": "Spain",
+  "cc": "ES",
+  "lat": 37.39,
+  "lng": -5.98,
+  "kind": "city"
+ },
+ {
+  "id": "palma",
+  "name": "Mallorca",
+  "country": "Spain",
+  "cc": "ES",
+  "lat": 39.57,
+  "lng": 2.65,
+  "kind": "beach"
+ },
+ {
+  "id": "ibiza",
+  "name": "Ibiza",
+  "country": "Spain",
+  "cc": "ES",
+  "lat": 38.91,
+  "lng": 1.43,
+  "kind": "beach"
+ },
+ {
+  "id": "tenerife",
+  "name": "Tenerife",
+  "country": "Spain",
+  "cc": "ES",
+  "lat": 28.29,
+  "lng": -16.63,
+  "kind": "beach"
+ },
+ {
+  "id": "lisbon",
+  "name": "Lisbon",
+  "country": "Portugal",
+  "cc": "PT",
+  "lat": 38.72,
+  "lng": -9.14,
+  "kind": "city"
+ },
+ {
+  "id": "lagos",
+  "name": "Algarve",
+  "country": "Portugal",
+  "cc": "PT",
+  "lat": 37.1,
+  "lng": -8.67,
+  "kind": "beach"
+ },
+ {
+  "id": "funchal",
+  "name": "Madeira",
+  "country": "Portugal",
+  "cc": "PT",
+  "lat": 32.65,
+  "lng": -16.91,
+  "kind": "nature"
+ },
+ {
+  "id": "azores",
+  "name": "Azores",
+  "country": "Portugal",
+  "cc": "PT",
+  "lat": 37.74,
+  "lng": -25.67,
+  "kind": "nature"
+ },
+ {
+  "id": "london",
+  "name": "London",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "lat": 51.51,
+  "lng": -0.13,
+  "kind": "city"
+ },
+ {
+  "id": "edinburgh",
+  "name": "Edinburgh",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "lat": 55.95,
+  "lng": -3.19,
+  "kind": "city"
+ },
+ {
+  "id": "highlands",
+  "name": "Scottish Highlands",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "lat": 57.48,
+  "lng": -4.22,
+  "kind": "nature"
+ },
+ {
+  "id": "amsterdam",
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "cc": "NL",
+  "lat": 52.37,
+  "lng": 4.9,
+  "kind": "city"
+ },
+ {
+  "id": "prague",
+  "name": "Prague",
+  "country": "Czechia",
+  "cc": "CZ",
+  "lat": 50.08,
+  "lng": 14.44,
+  "kind": "city"
+ },
+ {
+  "id": "vienna",
+  "name": "Vienna",
+  "country": "Austria",
+  "cc": "AT",
+  "lat": 48.21,
+  "lng": 16.37,
+  "kind": "city"
+ },
+ {
+  "id": "hallstatt",
+  "name": "Hallstatt",
+  "country": "Austria",
+  "cc": "AT",
+  "lat": 47.56,
+  "lng": 13.65,
+  "kind": "nature"
+ },
+ {
+  "id": "budapest",
+  "name": "Budapest",
+  "country": "Hungary",
+  "cc": "HU",
+  "lat": 47.5,
+  "lng": 19.04,
+  "kind": "city"
+ },
+ {
+  "id": "athens",
+  "name": "Athens",
+  "country": "Greece",
+  "cc": "GR",
+  "lat": 37.98,
+  "lng": 23.73,
+  "kind": "city"
+ },
+ {
+  "id": "santorini",
+  "name": "Santorini",
+  "country": "Greece",
+  "cc": "GR",
+  "lat": 36.39,
+  "lng": 25.46,
+  "kind": "beach"
+ },
+ {
+  "id": "mykonos",
+  "name": "Mykonos",
+  "country": "Greece",
+  "cc": "GR",
+  "lat": 37.45,
+  "lng": 25.33,
+  "kind": "beach"
+ },
+ {
+  "id": "crete",
+  "name": "Crete",
+  "country": "Greece",
+  "cc": "GR",
+  "lat": 35.51,
+  "lng": 24.02,
+  "kind": "beach"
+ },
+ {
+  "id": "berlin",
+  "name": "Berlin",
+  "country": "Germany",
+  "cc": "DE",
+  "lat": 52.52,
+  "lng": 13.4,
+  "kind": "city"
+ },
+ {
+  "id": "copenhagen",
+  "name": "Copenhagen",
+  "country": "Denmark",
+  "cc": "DK",
+  "lat": 55.68,
+  "lng": 12.57,
+  "kind": "city"
+ },
+ {
+  "id": "dubrovnik",
+  "name": "Dubrovnik",
+  "country": "Croatia",
+  "cc": "HR",
+  "lat": 42.65,
+  "lng": 18.09,
+  "kind": "city"
+ },
+ {
+  "id": "split",
+  "name": "Split",
+  "country": "Croatia",
+  "cc": "HR",
+  "lat": 43.51,
+  "lng": 16.44,
+  "kind": "beach"
+ },
+ {
+  "id": "plitvice",
+  "name": "Plitvice Lakes",
+  "country": "Croatia",
+  "cc": "HR",
+  "lat": 44.88,
+  "lng": 15.62,
+  "kind": "nature"
+ },
+ {
+  "id": "bled",
+  "name": "Lake Bled",
+  "country": "Slovenia",
+  "cc": "SI",
+  "lat": 46.37,
+  "lng": 14.11,
+  "kind": "nature"
+ },
+ {
+  "id": "valletta",
+  "name": "Malta",
+  "country": "Malta",
+  "cc": "MT",
+  "lat": 35.9,
+  "lng": 14.51,
+  "kind": "beach"
+ },
+ {
+  "id": "paphos",
+  "name": "Cyprus",
+  "country": "Cyprus",
+  "cc": "CY",
+  "lat": 34.77,
+  "lng": 32.43,
+  "kind": "beach"
+ },
+ {
+  "id": "tbilisi",
+  "name": "Tbilisi",
+  "country": "Georgia",
+  "cc": "GE",
+  "lat": 41.72,
+  "lng": 44.79,
+  "kind": "city"
+ },
+ {
+  "id": "kazbegi",
+  "name": "Kazbegi",
+  "country": "Georgia",
+  "cc": "GE",
+  "lat": 42.66,
+  "lng": 44.64,
+  "kind": "nature"
+ },
+ {
+  "id": "reykjavik",
+  "name": "Reykjavik",
+  "country": "Iceland",
+  "cc": "IS",
+  "lat": 64.15,
+  "lng": -21.94,
+  "kind": "nature"
+ },
+ {
+  "id": "interlaken",
+  "name": "Interlaken",
+  "country": "Switzerland",
+  "cc": "CH",
+  "lat": 46.69,
+  "lng": 7.86,
+  "kind": "nature"
+ },
+ {
+  "id": "zermatt",
+  "name": "Zermatt",
+  "country": "Switzerland",
+  "cc": "CH",
+  "lat": 46.02,
+  "lng": 7.75,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "chamonix",
+  "name": "Chamonix",
+  "country": "France",
+  "cc": "FR",
+  "lat": 45.92,
+  "lng": 6.87,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "stanton",
+  "name": "St. Anton",
+  "country": "Austria",
+  "cc": "AT",
+  "lat": 47.13,
+  "lng": 10.27,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "cortina",
+  "name": "Cortina d'Ampezzo",
+  "country": "Italy",
+  "cc": "IT",
+  "lat": 46.54,
+  "lng": 12.14,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "bansko",
+  "name": "Bansko",
+  "country": "Bulgaria",
+  "cc": "BG",
+  "lat": 41.84,
+  "lng": 23.49,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "are",
+  "name": "Åre",
+  "country": "Sweden",
+  "cc": "SE",
+  "lat": 63.4,
+  "lng": 13.08,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "aspen",
+  "name": "Aspen",
+  "country": "United States",
+  "cc": "US",
+  "lat": 39.19,
+  "lng": -106.82,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "whistler",
+  "name": "Whistler",
+  "country": "Canada",
+  "cc": "CA",
+  "lat": 50.12,
+  "lng": -122.95,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "hakuba",
+  "name": "Hakuba",
+  "country": "Japan",
+  "cc": "JP",
+  "lat": 36.7,
+  "lng": 137.86,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "niseko",
+  "name": "Niseko",
+  "country": "Japan",
+  "cc": "JP",
+  "lat": 42.8,
+  "lng": 140.69,
+  "kind": "snow",
+  "fixed": [
+   100,
+   100,
+   100,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70
+  ]
+ },
+ {
+  "id": "queenstown",
+  "name": "Queenstown",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "lat": -45.03,
+  "lng": 168.66,
+  "kind": "snow",
+  "fixed": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   70,
+   100,
+   100,
+   70,
+   0,
+   0
+  ]
+ },
+ {
+  "id": "tokyo",
+  "name": "Tokyo",
+  "country": "Japan",
+  "cc": "JP",
+  "lat": 35.68,
+  "lng": 139.69,
+  "kind": "city"
+ },
+ {
+  "id": "kyoto",
+  "name": "Kyoto",
+  "country": "Japan",
+  "cc": "JP",
+  "lat": 35.01,
+  "lng": 135.77,
+  "kind": "city"
+ },
+ {
+  "id": "fuji",
+  "name": "Mount Fuji area",
+  "country": "Japan",
+  "cc": "JP",
+  "lat": 35.5,
+  "lng": 138.77,
+  "kind": "nature"
+ },
+ {
+  "id": "seoul",
+  "name": "Seoul",
+  "country": "South Korea",
+  "cc": "KR",
+  "lat": 37.57,
+  "lng": 126.98,
+  "kind": "city"
+ },
+ {
+  "id": "jeju",
+  "name": "Jeju",
+  "country": "South Korea",
+  "cc": "KR",
+  "lat": 33.5,
+  "lng": 126.53,
+  "kind": "nature"
+ },
+ {
+  "id": "beijing",
+  "name": "Beijing",
+  "country": "China",
+  "cc": "CN",
+  "lat": 39.9,
+  "lng": 116.4,
+  "kind": "city"
+ },
+ {
+  "id": "shanghai",
+  "name": "Shanghai",
+  "country": "China",
+  "cc": "CN",
+  "lat": 31.23,
+  "lng": 121.47,
+  "kind": "city"
+ },
+ {
+  "id": "zhangjiajie",
+  "name": "Zhangjiajie",
+  "country": "China",
+  "cc": "CN",
+  "lat": 29.12,
+  "lng": 110.48,
+  "kind": "nature"
+ },
+ {
+  "id": "hongkong",
+  "name": "Hong Kong",
+  "country": "Hong Kong",
+  "cc": "HK",
+  "lat": 22.32,
+  "lng": 114.17,
+  "kind": "city"
+ },
+ {
+  "id": "singapore",
+  "name": "Singapore",
+  "country": "Singapore",
+  "cc": "SG",
+  "lat": 1.35,
+  "lng": 103.82,
+  "kind": "tropical"
+ },
+ {
+  "id": "bangkok",
+  "name": "Bangkok",
+  "country": "Thailand",
+  "cc": "TH",
+  "lat": 13.76,
+  "lng": 100.5,
+  "kind": "tropical"
+ },
+ {
+  "id": "phuket",
+  "name": "Phuket",
+  "country": "Thailand",
+  "cc": "TH",
+  "lat": 7.88,
+  "lng": 98.39,
+  "kind": "beach"
+ },
+ {
+  "id": "hanoi",
+  "name": "Hanoi",
+  "country": "Vietnam",
+  "cc": "VN",
+  "lat": 21.03,
+  "lng": 105.85,
+  "kind": "city"
+ },
+ {
+  "id": "hochiminh",
+  "name": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "cc": "VN",
+  "lat": 10.82,
+  "lng": 106.63,
+  "kind": "tropical"
+ },
+ {
+  "id": "siemreap",
+  "name": "Siem Reap (Angkor)",
+  "country": "Cambodia",
+  "cc": "KH",
+  "lat": 13.36,
+  "lng": 103.86,
+  "kind": "tropical"
+ },
+ {
+  "id": "luangprabang",
+  "name": "Luang Prabang",
+  "country": "Laos",
+  "cc": "LA",
+  "lat": 19.89,
+  "lng": 102.13,
+  "kind": "tropical"
+ },
+ {
+  "id": "kualalumpur",
+  "name": "Kuala Lumpur",
+  "country": "Malaysia",
+  "cc": "MY",
+  "lat": 3.14,
+  "lng": 101.69,
+  "kind": "tropical"
+ },
+ {
+  "id": "langkawi",
+  "name": "Langkawi",
+  "country": "Malaysia",
+  "cc": "MY",
+  "lat": 6.35,
+  "lng": 99.8,
+  "kind": "beach"
+ },
+ {
+  "id": "bali",
+  "name": "Bali",
+  "country": "Indonesia",
+  "cc": "ID",
+  "lat": -8.65,
+  "lng": 115.22,
+  "kind": "beach"
+ },
+ {
+  "id": "elnido",
+  "name": "El Nido (Palawan)",
+  "country": "Philippines",
+  "cc": "PH",
+  "lat": 11.18,
+  "lng": 119.39,
+  "kind": "beach"
+ },
+ {
+  "id": "kandy",
+  "name": "Kandy",
+  "country": "Sri Lanka",
+  "cc": "LK",
+  "lat": 7.29,
+  "lng": 80.63,
+  "kind": "tropical"
+ },
+ {
+  "id": "maldives",
+  "name": "Maldives",
+  "country": "Maldives",
+  "cc": "MV",
+  "lat": 4.18,
+  "lng": 73.51,
+  "kind": "beach"
+ },
+ {
+  "id": "jaipur",
+  "name": "Jaipur",
+  "country": "India",
+  "cc": "IN",
+  "lat": 26.91,
+  "lng": 75.79,
+  "kind": "city"
+ },
+ {
+  "id": "agra",
+  "name": "Agra",
+  "country": "India",
+  "cc": "IN",
+  "lat": 27.18,
+  "lng": 78.04,
+  "kind": "city"
+ },
+ {
+  "id": "leh",
+  "name": "Leh (Ladakh)",
+  "country": "India",
+  "cc": "IN",
+  "lat": 34.15,
+  "lng": 77.58,
+  "kind": "nature"
+ },
+ {
+  "id": "kathmandu",
+  "name": "Kathmandu",
+  "country": "Nepal",
+  "cc": "NP",
+  "lat": 27.72,
+  "lng": 85.32,
+  "kind": "nature"
+ },
+ {
+  "id": "newyork",
+  "name": "New York",
+  "country": "United States",
+  "cc": "US",
+  "lat": 40.71,
+  "lng": -74.01,
+  "kind": "city"
+ },
+ {
+  "id": "sanfrancisco",
+  "name": "San Francisco",
+  "country": "United States",
+  "cc": "US",
+  "lat": 37.77,
+  "lng": -122.42,
+  "kind": "city"
+ },
+ {
+  "id": "losangeles",
+  "name": "Los Angeles",
+  "country": "United States",
+  "cc": "US",
+  "lat": 34.05,
+  "lng": -118.24,
+  "kind": "city"
+ },
+ {
+  "id": "chicago",
+  "name": "Chicago",
+  "country": "United States",
+  "cc": "US",
+  "lat": 41.88,
+  "lng": -87.63,
+  "kind": "city"
+ },
+ {
+  "id": "miami",
+  "name": "Miami",
+  "country": "United States",
+  "cc": "US",
+  "lat": 25.76,
+  "lng": -80.19,
+  "kind": "beach"
+ },
+ {
+  "id": "honolulu",
+  "name": "Honolulu",
+  "country": "United States",
+  "cc": "US",
+  "lat": 21.31,
+  "lng": -157.86,
+  "kind": "beach"
+ },
+ {
+  "id": "yosemite",
+  "name": "Yosemite",
+  "country": "United States",
+  "cc": "US",
+  "lat": 37.75,
+  "lng": -119.59,
+  "kind": "nature"
+ },
+ {
+  "id": "grandcanyon",
+  "name": "Grand Canyon",
+  "country": "United States",
+  "cc": "US",
+  "lat": 36.11,
+  "lng": -112.11,
+  "kind": "nature"
+ },
+ {
+  "id": "yellowstone",
+  "name": "Yellowstone",
+  "country": "United States",
+  "cc": "US",
+  "lat": 44.46,
+  "lng": -110.83,
+  "kind": "nature"
+ },
+ {
+  "id": "banff",
+  "name": "Banff",
+  "country": "Canada",
+  "cc": "CA",
+  "lat": 51.18,
+  "lng": -115.57,
+  "kind": "nature"
+ },
+ {
+  "id": "mexicocity",
+  "name": "Mexico City",
+  "country": "Mexico",
+  "cc": "MX",
+  "lat": 19.43,
+  "lng": -99.13,
+  "kind": "city"
+ },
+ {
+  "id": "cancun",
+  "name": "Cancún",
+  "country": "Mexico",
+  "cc": "MX",
+  "lat": 21.16,
+  "lng": -86.85,
+  "kind": "beach"
+ },
+ {
+  "id": "tulum",
+  "name": "Tulum",
+  "country": "Mexico",
+  "cc": "MX",
+  "lat": 20.21,
+  "lng": -87.46,
+  "kind": "beach"
+ },
+ {
+  "id": "havana",
+  "name": "Havana",
+  "country": "Cuba",
+  "cc": "CU",
+  "lat": 23.11,
+  "lng": -82.37,
+  "kind": "tropical"
+ },
+ {
+  "id": "puntacana",
+  "name": "Punta Cana",
+  "country": "Dominican Republic",
+  "cc": "DO",
+  "lat": 18.58,
+  "lng": -68.4,
+  "kind": "beach"
+ },
+ {
+  "id": "cartagena",
+  "name": "Cartagena",
+  "country": "Colombia",
+  "cc": "CO",
+  "lat": 10.39,
+  "lng": -75.48,
+  "kind": "tropical"
+ },
+ {
+  "id": "galapagos",
+  "name": "Galápagos",
+  "country": "Ecuador",
+  "cc": "EC",
+  "lat": -0.74,
+  "lng": -90.31,
+  "kind": "tropical"
+ },
+ {
+  "id": "cusco",
+  "name": "Cusco & Machu Picchu",
+  "country": "Peru",
+  "cc": "PE",
+  "lat": -13.53,
+  "lng": -71.97,
+  "kind": "nature"
+ },
+ {
+  "id": "manaus",
+  "name": "Amazon (Manaus)",
+  "country": "Brazil",
+  "cc": "BR",
+  "lat": -3.12,
+  "lng": -60.02,
+  "kind": "tropical"
+ },
+ {
+  "id": "rio",
+  "name": "Rio de Janeiro",
+  "country": "Brazil",
+  "cc": "BR",
+  "lat": -22.91,
+  "lng": -43.17,
+  "kind": "tropical"
+ },
+ {
+  "id": "buenosaires",
+  "name": "Buenos Aires",
+  "country": "Argentina",
+  "cc": "AR",
+  "lat": -34.6,
+  "lng": -58.38,
+  "kind": "city"
+ },
+ {
+  "id": "chalten",
+  "name": "El Chaltén (Patagonia)",
+  "country": "Argentina",
+  "cc": "AR",
+  "lat": -49.33,
+  "lng": -72.89,
+  "kind": "nature"
+ },
+ {
+  "id": "torresdelpaine",
+  "name": "Torres del Paine",
+  "country": "Chile",
+  "cc": "CL",
+  "lat": -50.94,
+  "lng": -73.41,
+  "kind": "nature"
+ },
+ {
+  "id": "santiago",
+  "name": "Santiago",
+  "country": "Chile",
+  "cc": "CL",
+  "lat": -33.45,
+  "lng": -70.67,
+  "kind": "city"
+ },
+ {
+  "id": "sydney",
+  "name": "Sydney",
+  "country": "Australia",
+  "cc": "AU",
+  "lat": -33.87,
+  "lng": 151.21,
+  "kind": "city"
+ },
+ {
+  "id": "melbourne",
+  "name": "Melbourne",
+  "country": "Australia",
+  "cc": "AU",
+  "lat": -37.81,
+  "lng": 144.96,
+  "kind": "city"
+ },
+ {
+  "id": "goldcoast",
+  "name": "Gold Coast",
+  "country": "Australia",
+  "cc": "AU",
+  "lat": -28.02,
+  "lng": 153.43,
+  "kind": "beach"
+ },
+ {
+  "id": "uluru",
+  "name": "Uluru",
+  "country": "Australia",
+  "cc": "AU",
+  "lat": -25.34,
+  "lng": 131.04,
+  "kind": "desert"
+ },
+ {
+  "id": "auckland",
+  "name": "Auckland",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "lat": -36.85,
+  "lng": 174.76,
+  "kind": "city"
+ },
+ {
+  "id": "capetown",
+  "name": "Cape Town",
+  "country": "South Africa",
+  "cc": "ZA",
+  "lat": -33.92,
+  "lng": 18.42,
+  "kind": "city"
+ },
+ {
+  "id": "zanzibar",
+  "name": "Zanzibar",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "lat": -6.17,
+  "lng": 39.2,
+  "kind": "beach"
+ },
+ {
+  "id": "serengeti",
+  "name": "Serengeti",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "lat": -2.33,
+  "lng": 34.83,
+  "kind": "nature"
+ },
+ {
+  "id": "maasaimara",
+  "name": "Maasai Mara",
+  "country": "Kenya",
+  "cc": "KE",
+  "lat": -1.49,
+  "lng": 35.14,
+  "kind": "nature"
+ },
+ {
+  "id": "victoriafalls",
+  "name": "Victoria Falls",
+  "country": "Zimbabwe",
+  "cc": "ZW",
+  "lat": -17.93,
+  "lng": 25.86,
+  "kind": "nature"
+ },
+ {
+  "id": "sossusvlei",
+  "name": "Sossusvlei",
+  "country": "Namibia",
+  "cc": "NA",
+  "lat": -24.73,
+  "lng": 15.29,
+  "kind": "desert"
+ },
+ {
+  "id": "seychelles",
+  "name": "Seychelles",
+  "country": "Seychelles",
+  "cc": "SC",
+  "lat": -4.62,
+  "lng": 55.45,
+  "kind": "beach"
+ },
+ {
+  "id": "mauritius",
+  "name": "Mauritius",
+  "country": "Mauritius",
+  "cc": "MU",
+  "lat": -20.35,
+  "lng": 57.55,
+  "kind": "beach"
+ }
+]
