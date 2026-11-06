@@ -1,8 +1,8 @@
 // legal.js - the ONE place to fill in before you publish the privacy / terms / delete-account pages.
 // Upload it to the same place as the three .html files (the guideme-tiles repo root).
 window.GUIDEME_LEGAL = {
-  developer: 'Noureldeen-Nezar.js',      // exactly as it appears as the developer name on your Google Play listing
-  email: 'Noureldeennezar@gmail.com.js',          // a real inbox you read; people will write here about privacy and deleting accounts
+  developer: 'Noureldeen-Nezar',      // exactly as it appears as the developer name on your Google Play listing
+  email: 'Noureldeennezar@gmail.com',          // a real inbox you read; people will write here about privacy and deleting accounts
   country: 'Egypt',                              // where you are based (used in the Terms)
   updated: '2026-11-06'                          // change this date whenever you change the text of a page
 };
