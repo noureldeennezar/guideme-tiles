@@ -56,17 +56,25 @@ def fetch(lat, lng):
     raise last
 
 
-def build(dest):
-    d = {k: dest[k] for k in ("id", "name", "country", "cc", "lat", "lng", "kind")}
+META = ("id", "name", "country", "cc", "lat", "lng", "kind", "wiki")
+
+
+def build(dest, prev=None):
+    """Climate numbers are fetched once and kept; the scores are recomputed every run, so
+    changing a scoring rule above never needs a new download."""
+    d = {k: dest[k] for k in META if k in dest}
     if "fixed" in dest:
         d["fixed"] = dest["fixed"]
         d["score"] = list(dest["fixed"])
         return d
-    hi, lo, rain = fetch(dest["lat"], dest["lng"])
+    if prev and prev.get("hi") and prev.get("lat") == dest["lat"] and prev.get("lng") == dest["lng"]:
+        hi, lo, rain = prev["hi"], prev["lo"], prev["rain"]
+    else:
+        hi, lo, rain = fetch(dest["lat"], dest["lng"])
     d["hi"] = [int(round(v)) for v in hi]
     d["lo"] = [int(round(v)) for v in lo]
     d["rain"] = [round(v, 1) for v in rain]
-    d["score"] = [month_score(dest["kind"], h, l, r) for h, l, r in zip(hi, lo, rain)]
+    d["score"] = [month_score(dest["kind"], h, l, r) for h, l, r in zip(d["hi"], d["lo"], d["rain"])]
     return d
 
 
@@ -103,14 +111,12 @@ def main():
     result, fetched, failed = [], 0, 0
     for dest in dests:
         prev = old.get(dest["id"])
-        same = prev and all(prev.get(k) == dest[k] for k in ("name", "country", "cc", "lat", "lng", "kind"))
-        if same and ("fixed" in dest or "hi" in prev):
-            result.append(prev)
-            continue
         try:
-            result.append(build(dest))
-            fetched += 1
-            time.sleep(0.6)
+            need_fetch = "fixed" not in dest and not (prev and prev.get("hi") and prev.get("lat") == dest["lat"] and prev.get("lng") == dest["lng"])
+            result.append(build(dest, prev))
+            if need_fetch:
+                fetched += 1
+                time.sleep(0.6)
         except Exception as e:  # keep the old entry if there is one
             failed += 1
             print("failed:", dest["id"], e)
