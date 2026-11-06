@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A list of places from GuideMe</title>
+<meta property="og:title" content="A list of places from GuideMe">
+<meta property="og:description" content="Open the list: places worth visiting, each with a map link.">
+<meta name="robots" content="noindex">
+<style>
+  :root { --sand:#D4B087; --sand-d:#8A6A3F; --ink:#2A2118; --bg:#FAF6F0; --card:#fff; --sub:#5f564c; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#f3ece3; --bg:#0F0D0B; --card:#1A1612; --sub:#b3a99d; --sand-d:#D4B087; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  main { max-width:560px; margin:0 auto; padding:24px 16px 48px; }
+  .brand { color:var(--sand-d); font-weight:800; letter-spacing:.12em; font-size:12px; text-transform:uppercase; }
+  h1 { font-size:26px; line-height:1.15; margin:6px 0 4px; }
+  .sub { color:var(--sub); font-size:14px; margin:0 0 18px; }
+  .row { display:flex; gap:12px; background:var(--card); border-radius:16px; padding:12px 14px; margin:8px 0; align-items:center; }
+  .n { flex:1; font-weight:700; min-width:0; overflow-wrap:anywhere; }
+  .m { font-size:12px; color:var(--sub); font-weight:400; display:block; text-transform:capitalize; }
+  a.map { background:var(--sand); color:#2A2118; text-decoration:none; font-size:13px; font-weight:800; flex:none; padding:8px 14px; border-radius:18px; }
+  .foot { margin-top:28px; font-size:12px; color:var(--sub); }
+</style>
+</head>
+<body>
+<main id="app"><p>Loading…</p></main>
+<script>
+(function () {
+  var app = document.getElementById('app');
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function fail() { app.textContent = ''; app.appendChild(el('p', null, 'This link is not a valid GuideMe list.')); }
+  var data;
+  try {
+    var p = location.hash.replace(/^#/, '').replace(/-/g, '+').replace(/_/g, '/');
+    while (p.length % 4) p += '=';
+    var bin = atob(p), bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    data = JSON.parse(new TextDecoder().decode(bytes));
+    if (!data || data.k !== 'list' || !Array.isArray(data.p) || !data.p.length) throw 0;
+  } catch (e) { return fail(); }
+
+  app.textContent = '';
+  var title = String(data.t || 'A list of places');
+  document.title = title + ' · GuideMe';
+  app.appendChild(el('div', 'brand', 'GuideMe'));
+  var h = el('h1', null, title); h.setAttribute('dir', 'auto'); // Arabic / Persian titles read right to left
+  app.appendChild(h);
+  app.appendChild(el('p', 'sub', data.p.length + ' place' + (data.p.length === 1 ? '' : 's') + ' · check opening hours before you go'));
+
+  data.p.forEach(function (s) {
+    var row = el('div', 'row');
+    var n = el('div', 'n', String(s[0])); n.setAttribute('dir', 'auto');
+    if (s[3]) n.appendChild(el('span', 'm', String(s[3])));
+    row.appendChild(n);
+    var lat = Number(s[1]), lng = Number(s[2]);
+    if (isFinite(lat) && isFinite(lng)) {
+      var a = el('a', 'map', 'Map');
+      a.href = 'https://www.google.com/maps/search/?api=1&query=' + lat + ',' + lng;
+      a.rel = 'noopener';
+      row.appendChild(a);
+    }
+    app.appendChild(row);
+  });
+  app.appendChild(el('p', 'foot', 'Saved with GuideMe, the free travel discovery app.'));
+})();
+</script>
+</body>
+</html>
